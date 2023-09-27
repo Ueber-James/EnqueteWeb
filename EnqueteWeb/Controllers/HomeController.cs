@@ -20,7 +20,6 @@ namespace EnqueteWeb.Controllers
         {
             return View();
         }
-
         [HttpPost]
 
         public IActionResult Responder(Resposta form)
